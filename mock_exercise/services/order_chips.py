@@ -13,6 +13,4 @@ class OrderChipsFacade:
         This method should debit the user's credit card for the right amount, and add the chips to the player's
         account.
         """
-        self._credit_card_service.take_money(credit_card_number, 42)
-        tax = TaxService()
-        tax.calculate_tax(42)
+        pass
